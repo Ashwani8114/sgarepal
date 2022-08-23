@@ -1,0 +1,213 @@
+*  { 
+    padding  :0px ;
+    margin : 0px ;
+}
+
+img  { 
+    padding-top: 5px;
+}
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2  px;
+    background-color : transparent;
+    color: #020202;
+}
+.image1 img  { 
+    width : 250px;
+    height :75px;
+}
+
+.nav-links a {
+    color: rgb(1, 1, 1);
+}
+
+/* LOGO */
+.logo {
+    font-size: 32px;
+}
+
+/* NAVBAR MENU */
+.menu {
+    display: flex;
+    gap: 1em;
+    font-size: 18px;
+}
+
+.menu li:hover {
+   
+    border-radius: 5px;
+    transition: 0.3s ease;
+}
+
+.menu li {
+    padding: 5px 14px;
+}
+
+/* DROPDOWN MENU */
+.services {
+    position: relative;
+}
+.services  { 
+    
+    padding-top:  13px ;
+    padding-bottom: 13px;
+    padding-left: 5px;
+    border-radius: 25px;
+    font-size: 25px;
+    font-weight: 500;
+    border: none;
+    
+}
+.menu  { 
+    list-style: none;
+}
+
+
+.dropdown {
+    
+    padding: 1em 0;
+    position: absolute;
+    /*WITH RESPECT TO PARENT*/
+    display: none;
+    border-radius: 8px;
+    top: 35px;
+}
+
+.dropdown li+li {
+    margin-top: 10px;
+}
+
+.dropdown li {
+    padding: 0.5em 1em;
+    width: 8em;
+    text-align: center;
+}
+.fix img  { 
+    width : 50px;
+    height : 50px;
+}
+
+
+.services:hover .dropdown {
+    display: block;
+}
+
+.menu button  { 
+    padding-top : 10px;
+    padding-bottom : 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 20px;
+    border-radius: 7px;
+    color: blue;
+    border: 1px solid blue;
+    font-weight: 700;
+    background-color: transparent;
+    cursor: pointer;
+}
+.menu  { 
+    margin-right: 25px;
+}
+
+header  { 
+    width : 1850px ;
+    height : 13vh;
+    background-color: hsl(209, 100%, 92%);
+    margin-left:  35px;
+    margin-top: 10px;
+    border-radius: 20px;
+}
+
+.fix1  { 
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 10px;
+}
+.border1   { 
+    border-right: 2px solid black;
+}
+
+.border1 p  { 
+    padding-top: 45px;
+    padding-bottom: 45px;
+}
+
+.trekking p  { 
+    font-size: 40px;
+}
+.trekking   { 
+    text-align: center;
+    margin-top: 15px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+}
+
+.manage1  { 
+    margin-left: 450px;
+    margin-top : 30px;
+    
+}
+
+.manage2 img { 
+    margin-left:450px ;
+}
+
+footer { 
+    width : 100% ;
+    height  : 13vh ;
+    background-color: rgb(40, 40, 129);
+}
+
+.footer1 { 
+    width : 50% ;
+    height  : 13vh ;
+    margin-left: 500px;
+}
+
+.footer2  { 
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 30px;
+}
+
+.footer2  p  { 
+    font-size: 20px;
+    font-weight: bold;
+    color: aliceblue;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.manage4 button  { 
+    font-weight: bold;
+    font-size: 17px;
+    margin-top : 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: rgb(238, 238, 64);
+    border-radius: 10px;
+    cursor: pointer;
+    margin-left: 15px;
+}
+
+.manage4 p  { 
+    padding-left: 30px;
+    
+}
+
+.manage4 button:hover  { 
+    color: blue;
+    background-color: rgb(216, 210, 243);
+}
+
+
+
+
+
+
+
